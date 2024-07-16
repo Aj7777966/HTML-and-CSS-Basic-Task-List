@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic questions and their answers</title>
+    <style>
+        h1{
+            border: 2px solid black;
+            background-image: url('bmw\ iim\ 3.webp');
+            background-repeat: no-repeat;
+            border-style: ridge;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: beige;
+            padding-bottom:2%;
+            
+            
+        }
+        .li{
+            font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <h1>The HTML and CSS Basic questions</h1>
+    <ol>
+        <li class="li">How do you set up your development environment for HTML and CSS?</li>
+        <li style="list-style-type: disc;list-style: outside;">There are three ways by which one can go through the following and can proceed upto for the same:</li><br>
+        <ul>
+            <li style="list-style-type: square;list-style: inside;font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;">Text Editor or IDE:</li>
+            <p>A basic program for writing plain text, often with features like syntax highlighting and code <br> completion for HTML and CSS. Popular options include Visual Studio Code (VS Code), Sublime  <br>Text, and Atom (all free and open-source).</p>
+            <li style="list-style-type: square;list-style: inside;font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;"> Web Browser:</li>
+            <p>You'll need a web browser to preview your website as you code. Common choices include Chrome <br>, Firefox, Safari, or Edge.</p>
+            <li style="list-style-type: square;list-style: inside;font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;">Optional: Local Web Server (for convenience):</li>
+            <p>A local web server allows you to run your HTML and CSS files on your computer like a real website. <br> This can be helpful for testing and development. Many code editors, like VS Code, have built-in live <br> server extensions you can install.</p>
+        </ul>
+        <li class="li">How do you create a basic HTML document structure?</li>
+        <p>DOCTYPE Declaration: <br>
+
+            This line specifies the document type as HTML. It's the very first line of your code and tells the browser how to interpret the code 
+                 <img src="doctype declaration.png" alt="image can't be diplayed"></p><br>
+                 <p>HTML Element: <br>
+
+                    This is the root element of your document and encompasses everything else. <br>
+                <img src="html element.png" alt="image can't be diplayed"></p>
+                <p>Head Element:
+
+                    This section contains metadata about your document, but it's not displayed on the webpage itself. It includes the document title, character encoding, and links to external resources like CSS stylesheets.
+                <img src="head element.png" alt="image ca't be displayed"></p><br><br>
+              <p>Body Element:
+
+                This section contains the content that will be displayed on the webpage. This is where you'll put your headings, paragraphs, images, and other elements that make up the visible part of your website.
+            <img src="body element.png" alt="image can't be diplayed"></p>
+        <li class="li">How do you link a CSS file to an HTML file ?</li>
+        <p>You can link a CSS file to an HTML file using the link tag placed within the head section of your HTML document. The link tag has a few important attributes for specifying the connection:
+            <ul>
+                <li>rel: This attribute defines the relationship between the HTML document and the linked file. In the case of CSS, you set it to "stylesheet".</li>
+               <li> type: This attribute specifies the type of the linked file. For CSS, you set it to "text/css".</li>
+               <li>href: This attribute specifies the location (path) of the CSS file relative to your HTML file.</li>        
+            </ul>
+            <img src="css link external.png" alt="">
+        </p>
+        <li class="li">How can you style text and elements using CSS?</li>
+        <p>Cascading Style Sheets (CSS) is a powerful tool for web developers to define the presentation of a web page's content, including text and various elements. Here's how you can <br> achieve stunning  visual effects and control the layout using CSS:
+            <ol>
+                <li><b>Text Styling:</b></li><br>
+               
+<b>Font Properties:</b><br>
+
+font-family: This property dictates the typeface used for the text. You can specify a specific font name like 'Arial' or generic categories like 'serif' or 'sans-serif'. <br>
+font-size: This controls the size of the text, and you can define it in various units like pixels (px), points (pt), or even relative units like ems. <br>
+font-weight: This alters the boldness of the text, with values like 'normal' for regular weight and 'bold' for bolder text. <br>
+font-style: Use this property to make the text italic or oblique with values like 'italic' or 'oblique'. <br><br>    
+
+   <b>Text Decoration:</b><br>
+
+
+   Text-decoration: This property allows you to add decorative lines to text, including underline, overline, line-through, or none. <br>
+    Text Alignment:
+
+Text-align: This property controls how text is positioned within its container element. You can use values like 'left', 'center', 'right', or 'justify' for full justification. <br><br>
+
+<li><b>Element Styling:</li><br></b>
+
+<b>Background</b><br>
+
+background-color: This property defines the background color of an element. You can use color names, hexadecimal codes (e.g., #ff0000 for red), or RGB values. <br>
+background-image: Set a background image for the element using a URL path to the image. <br><br>
+<b>Borders:</b><br>
+
+border: This shorthand property defines all border styles at once, including width, color, and style (solid, dashed, dotted). <br><br>
+<b>Dimensions:</b><br>
+
+width: This property sets the width of the element.
+height: This property sets the height of the element. <br><br>
+<b>
+    Padding & Margin:
+</b><br>
+
+padding: This property defines the space between the element's border and its content. <br>
+margin: This property defines the space between the element and surrounding elements.
+
+        </ol>
+        </p>
+        <li class="li">How do you create and style a simple navigation bar?</li>
+        <p>here is an example of creating and styling an simple navigation bar and it is defined below as follows:</p>
+        <ol>
+            <li><b>The HTML creation</b></li>    
+            <img src="navbar creaton.png" alt="imag can't be diplayed"><br><br>
+
+            <li><b>Styling navbar through CSS</b></li> <br>   
+            <img src="styling navbar.png" alt="imag can't be diplayed"><br><br>
+
+            <p><b>Output displayed below as :</b></p>
+            <img src="navbar output.png" alt="">
+        </ol>
+        <li class="li">How do you create and style a section with content?</li>
+        <p>here is an example of creating and styling a section content and it is defined below as follows:</p>
+        <ol>
+            <li><b>The HTML creation</b></li>    
+            <img src="navbar creaton.png" alt="imag can't be diplayed"><br><br>
+
+            <li><b>Styling the section with help of CSS</b></li> <br>   
+            <img src="styling navbar.png" alt="imag can't be diplayed"><br><br>
+
+            <p><b>Output displayed below as :</b></p>
+            <img src="navbar output.png" alt="">
+        </ol>
+        <li class="li">How do you add and style an image in your HTML and CSS?</li>
+        <p>here is an example of adding image and styling it using CSS and it is defined below as follows:</p>
+        <ol>
+            <li><b>The HTML creation</b></li>    
+            <img src="image html.png" alt="imag can't be diplayed"><br><br>
+
+            <li><b>Styling the image with help of CSS</b></li> <br>   
+            <img src="image styling.png" alt="imag can't be diplayed"><br><br>
+
+            <p><b>Output displayed below as :</b></p>
+            <img src="add image.png" alt="">
+        </ol>
+        <li class="li">How do you create and style a footer for your web page?</li>
+        <p>here is an example of creating footer and styling it using CSS and it is defined below as follows:</p>
+        <ol>
+            <li><b>The HTML creation</b></li>    
+            <img src="Footer html.png" alt="image can't be diplayed"><br><br>
+
+            <li><b>Styling the footer with help of CSS</b></li> <br>   
+            <img src="footer styling.png" alt="image can't be diplayed"><br><br>
+
+            <p><b>Output displayed below as :</b></p>
+            <img src="footer output.png" alt="image can't be diplayed"n width="1200px" height="300px">
+        </ol>
+        <li class="li">How can you implement responsive design using media queries?</li>
+        <p>here is an example of creating footer and styling it using CSS and it is defined below as follows:</p>
+        <ol>
+            <li><b>The HTML creation</b></li>    
+            <img src="media quiries html.png" alt="image can't be diplayed"><br><br>
+
+            <li><b>Styling the footer with help of CSS</b></li> <br>   
+            <img src="media queries styling.png" alt="image can't be diplayed"><br><br>
+
+            <p><b>Output displayed below as :</b></p>
+            <img src="media queries output.png" alt="image can't be diplayed"n width="1000px" height="500px">
+        </ol>
+        <li class="li">How do you create and style a simple form in HTML and CSS?</li>
+        <p>Here is an example of styling and designing the simple form and is displyed as follows:</p>
+        <ol>
+            <li><b>The HTML creation of the form part -1</b></li>    
+            <img src="html creation 1.png" alt="image can't be diplayed"><br><br>
+
+            <li><b>Th HTML Creation of the form part-2</b></li> <br>   
+            <img src="html creation 2.png" alt="image can't be diplayed"><br><br>
+
+            <p><b>Output displayed below as :</b></p>
+            <img src="form output.png" alt="image can't be diplayed"n width="1000px" height="500px">
+        </ol>
+    </ol>
+</head>
+<body>
+    
+</body>
+</html>
